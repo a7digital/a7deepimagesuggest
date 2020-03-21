@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "24152b01aa189f6719ed6ab1234064a3",
+    "content-hash": "9f1e09d9d7869c52d660550e5492ae01",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -2397,6 +2397,73 @@
             "time": "2019-03-01T11:23:45+00:00"
         },
         {
+            "name": "typo3/cms-backend",
+            "version": "9.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/backend.git",
+                "reference": "a13967d8130e22def48ad18f1e3e3c80d73e5d7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/backend/zipball/a13967d8130e22def48ad18f1e3e3c80d73e5d7c",
+                "reference": "a13967d8130e22def48ad18f1e3e3c80d73e5d7c",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.*@dev",
+                "typo3/cms-recordlist": "9.5.*@dev"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "replace": {
+                "typo3/cms-context-help": "*",
+                "typo3/cms-cshmanual": "*",
+                "typo3/cms-func-wizards": "*",
+                "typo3/cms-wizard-crpages": "*",
+                "typo3/cms-wizard-sortpages": "*"
+            },
+            "suggest": {
+                "typo3/cms-install": "To generate url to install tool in environment toolbar"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "protected": true,
+                        "partOfFactoryDefault": true,
+                        "partOfMinimalUsableSystem": true
+                    },
+                    "extension-key": "backend"
+                },
+                "typo3/class-alias-loader": {
+                    "class-alias-maps": [
+                        "Migrations/Code/ClassAliasMap.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Backend\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes for the TYPO3 backend.",
+            "homepage": "https://typo3.org",
+            "time": "2020-03-21T09:52:45+00:00"
+        },
+        {
             "name": "typo3/cms-cli",
             "version": "2.0.0",
             "source": {
@@ -2612,6 +2679,62 @@
             "description": "The core library of TYPO3.",
             "homepage": "https://typo3.org",
             "time": "2020-03-20T17:12:12+00:00"
+        },
+        {
+            "name": "typo3/cms-recordlist",
+            "version": "9.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/recordlist.git",
+                "reference": "557f494e3f80c143d206a43cd1f04eee7b884d64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/recordlist/zipball/557f494e3f80c143d206a43cd1f04eee7b884d64",
+                "reference": "557f494e3f80c143d206a43cd1f04eee7b884d64",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "9.5.*@dev"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "Package": {
+                        "protected": true,
+                        "partOfFactoryDefault": true,
+                        "partOfMinimalUsableSystem": true
+                    },
+                    "extension-key": "recordlist"
+                },
+                "typo3/class-alias-loader": {
+                    "class-alias-maps": [
+                        "Migrations/Code/ClassAliasMap.php"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Recordlist\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "List of database-records",
+            "homepage": "https://typo3.org",
+            "time": "2020-03-18T19:52:52+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
