@@ -1,4 +1,4 @@
-# a7deepimagesuggest
+# a7picsuggest
 Provides image suggestions to editors via Deep Learning
 
 ## State

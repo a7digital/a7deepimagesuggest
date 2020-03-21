@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ee71643602a340fd1bd907b7fb9bf44",
+    "content-hash": "24152b01aa189f6719ed6ab1234064a3",
     "packages": [
         {
             "name": "algo26-matthias/idna-convert",
@@ -2498,12 +2498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/core.git",
-                "reference": "a12bfe945fe4844a6a79c72a8fa70a482cf102b6"
+                "reference": "27791b33f71d136a53bdb3b64f2320fda3454f48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-CMS/core/zipball/a12bfe945fe4844a6a79c72a8fa70a482cf102b6",
-                "reference": "a12bfe945fe4844a6a79c72a8fa70a482cf102b6",
+                "url": "https://api.github.com/repos/TYPO3-CMS/core/zipball/27791b33f71d136a53bdb3b64f2320fda3454f48",
+                "reference": "27791b33f71d136a53bdb3b64f2320fda3454f48",
                 "shasum": ""
             },
             "require": {
@@ -2611,7 +2611,7 @@
             ],
             "description": "The core library of TYPO3.",
             "homepage": "https://typo3.org",
-            "time": "2020-03-18T19:52:31+00:00"
+            "time": "2020-03-20T17:12:12+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",

@@ -5,12 +5,12 @@
       "url": "https://composer.typo3.org/"
     }
   ],
-  "name": "a7digital/a7deepimagesuggest",
+  "name": "a7digital/a7picsuggest",
   "description": "Provides image suggestions to editors via Deep Learning",
   "type": "typo3-cms-extension",
   "replace": {
-    "a7deepimagesuggest": "self.version",
-    "typo3-ter/a7deepimagesuggest": "self.version"
+    "a7picsuggest": "self.version",
+    "typo3-ter/a7picsuggest": "self.version"
   },
   "license": "GPL",
   "authors": [
@@ -45,7 +45,7 @@
     "typo3/cms": {
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
       "web-dir": ".Build/Web",
-      "extension-key": "a7deepimagesuggest"
+      "extension-key": "a7picsuggest"
     }
   }
 }
