@@ -6,6 +6,9 @@ $EM_CONF[$_EXTKEY] = array(
         'depends' => array(
             'typo3' => '9.5.0-',
         ),
+        'suggests' => array(
+            'a7pictags' => '',
+        ),
     ),
 );
 

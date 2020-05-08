@@ -26,6 +26,7 @@ namespace A7digital\A7picsuggest\FormEngine\FieldWizard;
  ***************************************************************/
 
 use TYPO3\CMS\Backend\Form\AbstractNode;
+use TYPO3\CMS\Core\Page\PageRenderer;
 
 /**
  * Adds the necessary HTML/CSS/JS to suitable image fields in the backend so suggestions will be loaded.
@@ -39,9 +40,13 @@ class SuggestImages extends AbstractNode
     {
         $result = $this->initializeResultArray();
 
+        /** @var PageRenderer $pageRenderer */
+        $pageRenderer = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Page\PageRenderer::class);
+        $pageRenderer->loadRequireJsModule('TYPO3/CMS/A7picsuggest/A7picsuggestTtContent');
+        $pageRenderer->addCssFile('EXT:a7picsuggest/Resources/Public/Style/a7picsuggest.css');
+
         $html = [];
         $html[] = '<div class="a7picsuggest-suggestions">';
-        $html[] =   'TEST';
         $html[] = '</div>';
 
         $result['html'] = implode(LF, $html);

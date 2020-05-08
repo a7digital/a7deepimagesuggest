@@ -1541,12 +1541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "509709df703016458dc13ed31e31780db65a4f67"
+                "reference": "251145038037cb57794127ade9b035c8dd0dd3fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/509709df703016458dc13ed31e31780db65a4f67",
-                "reference": "509709df703016458dc13ed31e31780db65a4f67",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/251145038037cb57794127ade9b035c8dd0dd3fb",
+                "reference": "251145038037cb57794127ade9b035c8dd0dd3fb",
                 "shasum": ""
             },
             "require": {
@@ -1594,7 +1594,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-03-18T08:01:26+00:00"
+            "time": "2020-03-23T12:45:08+00:00"
         },
         {
             "name": "symfony/intl",
@@ -2402,12 +2402,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/backend.git",
-                "reference": "a13967d8130e22def48ad18f1e3e3c80d73e5d7c"
+                "reference": "a0fde7089c9a336122beee833882a64c153871a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-CMS/backend/zipball/a13967d8130e22def48ad18f1e3e3c80d73e5d7c",
-                "reference": "a13967d8130e22def48ad18f1e3e3c80d73e5d7c",
+                "url": "https://api.github.com/repos/TYPO3-CMS/backend/zipball/a0fde7089c9a336122beee833882a64c153871a6",
+                "reference": "a0fde7089c9a336122beee833882a64c153871a6",
                 "shasum": ""
             },
             "require": {
@@ -2461,7 +2461,7 @@
             ],
             "description": "Classes for the TYPO3 backend.",
             "homepage": "https://typo3.org",
-            "time": "2020-03-21T09:52:45+00:00"
+            "time": "2020-03-24T07:00:38+00:00"
         },
         {
             "name": "typo3/cms-cli",
@@ -2565,12 +2565,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/core.git",
-                "reference": "27791b33f71d136a53bdb3b64f2320fda3454f48"
+                "reference": "ceed0323189c9e85d36c45aefebf4819ff2a988a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-CMS/core/zipball/27791b33f71d136a53bdb3b64f2320fda3454f48",
-                "reference": "27791b33f71d136a53bdb3b64f2320fda3454f48",
+                "url": "https://api.github.com/repos/TYPO3-CMS/core/zipball/ceed0323189c9e85d36c45aefebf4819ff2a988a",
+                "reference": "ceed0323189c9e85d36c45aefebf4819ff2a988a",
                 "shasum": ""
             },
             "require": {
@@ -2678,7 +2678,7 @@
             ],
             "description": "The core library of TYPO3.",
             "homepage": "https://typo3.org",
-            "time": "2020-03-20T17:12:12+00:00"
+            "time": "2020-03-23T12:45:27+00:00"
         },
         {
             "name": "typo3/cms-recordlist",
